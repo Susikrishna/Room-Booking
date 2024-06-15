@@ -24,8 +24,8 @@ vi) services(directory)=> loginservices - Consists of some functions that are us
 
 To add you username and password:
 1) Add to the loginModel.js the following code:
-   const user = new loginModel({"your username","your password"});
+   const user = new loginModel({username:"your username",password:"your password"});
    user.save();
-2) Then start the server and close it after some time.
-3) Now you username and password will be added.
-4) Then remove the code we added in the first step.
+3) Then start the server and close it after some time.
+4) Now you username and password will be added.
+5) Then remove the code we added in the first step.
